@@ -13,40 +13,39 @@
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, LLC</h1></a>
-          </div>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
+          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          
+          <div class="navbar-brand navbar-left">
+            Food, LLC
+          </div>
+  
         </div>
         
-        <div id="collapsable-nav" class="collapse navbar-collapse" class="hidden-xs">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
+        <!-- Collapsable menu -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="#boxtitle1">
-                <span class="none"></span><br class="hidden-xs"> Chicken</a>
+              <a href="#boxtitle1">Chicken</a>
             </li>
             <li>
-              <a href="#boxtitle2">
-                <span class="none"></span><br class="hidden-xs"> Beef</a>
+              <a href="#boxtitle2">Beef</a>
             </li>
             <li>
-              <a href="#boxtitle3">
-                <span class="none"></span><br class="hidden-xs"> Sushi</a>
+              <a href="#boxtitle3">Sushi</a>
             </li>
-            
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+          </ul>
+        </div>
+          
+      </div>
+    </nav>
   </header>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
